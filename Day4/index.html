@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .design{
+            height: fit-content;
+            width: 400px;
+            background-color: antiquewhite;
+            margin: auto;
+        }
+        .image{
+            padding-top: 20px;
+            padding-left: 110px;
+            padding-bottom: 20px;
+            
+        }
+        .change{
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-bottom: 40px;
+        }
+        .input{
+            height: 25px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .changeText{
+            margin-top: 40px;
+            margin-left: 40%;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question 1 Create a webpage containing an image and three buttons</h1>
+    <ol type="A">
+        <li>On click of the second button a change the existing image to a new image</li>
+        <li>On click of the third button change it once again</li>
+        <li>On click of first, the first image should come back</li>
+    </ol>
+    <div class="design">
+        <img src="https://www.hdwallpapers.in/thumbs/2020/jaguar_f_type_p380_awd_convertible_first_edition_2020_2_4k_5k_hd_cars-t2.jpg" 
+    alt="" width="200px" class="image">
+    <button class="change" onclick="firstImage()">First Button </button>
+    <button class="change" onclick="secondImage()">Second Button </button>
+    <button class="change" onclick="thirdImage()">Third Button </button>
+    </div>
+    <h1>Question 2 Create a webpage containing two input fields and a button.</h1>
+    <ol type="A">
+        <li>Write something in the first input</li>
+        <li>On click of the button, the content of input one should be copied in the second input</li>
+    </ol>
+    <div class="design">
+        <input type="text" class="input" placeholder="First Input Field"/>
+        <input type="text" class="input" placeholder="Second Input Field"/>
+        <button class="changeText" onclick="changeText()">Copy Text </button>
+    </div>
+    <h1>Question 3 Create an array of objects with objects having the following properties.</h1>
+    <ol type="A">
+        <li>{name (string), age (number), country (string), hobbies array (string [ ] ) }</li>
+        <li>Write a function to display all the objects on the console</li>
+    </ol>
+    <h1>Question 4 Following the 3rd question. </h1>
+    <ol type="A">
+        <li>Write a function to display all the objects having age less than 30</li>
+        <li>Write a function to display all the objects having country India</li>
+    </ol>
+
+    <script src="index.js"></script>
+</body>
+</html>
